@@ -1,0 +1,40 @@
+.note-container{
+    margin-top: 10px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+    border-radius: 10px;
+    min-height: 40px;
+    font-weight: bold;
+}
+.note-text{
+   max-width: 70vw;
+   margin-left: 20px;
+}
+.trash-can{
+    margin-right:20px ;
+}
+@media only screen and (max-width:350px){
+.note-container{
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+    border-radius: 10px;
+    min-height: 40px;
+    font-weight: bold;
+}
+.note-text{
+   max-width: 290px;
+   margin-left: 10px;
+}
+.trash-can{
+    margin-right:10px ;
+}
+}
